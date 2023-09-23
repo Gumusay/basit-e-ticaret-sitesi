@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-TİCARET</title>
+</head>
+<body>
+
+ <ul>
+     <li><a href="index.html">ANASAYFA</a></li>
+     <li><a href="#"> ADMİNSAYFA</a></li>
+ </ul>
+
+ <h1>ÜRÜNLER</h1>
+
+ <!-- Kategori-->
+ <label for="kategori">Kategori Ara:</label>
+ <select id="kategori">
+     <option value="Tümü">Tümü</option>
+     <option value="Elektronik">Elektronik</option>
+     <option value="Giyim">Giyim</option>
+     <option value="Mutfak">Mutfak</option>
+     <option value="Spor">Spor</option>
+     <option value="Mobilya">Mobilya</option>
+     <option value="Aksesuar">Aksesuar</option>
+ </select>
+
+ <!----- Ürün aramak için ---->
+ <label for="arama">Ürünü Ara:</label>
+ <input type="text" id="arama">
+
+ <!-- Ürün listesi buraya eklenecek -->
+ <div id="urun-listesi"></div>
+
+ <!-- Sepet listesi buraya eklenecek-->
+ <h2>Sepet</h2>
+ <ul id="sepet-listesi"></ul>
+
+    <script src="index.js"></script> 
+    <!-- script javascripti htmlye bağlamak için  -->
+
+</body>
+</html>
