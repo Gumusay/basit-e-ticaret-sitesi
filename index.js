@@ -87,7 +87,7 @@ let urunler=[
 
 ]
 
-/////////////////////////
+/////////////////////////////////////
 
 // DOM ELEMENTLERİ İLE KATEGORİ ARAMADA, ÜRÜN ARAMADA, ÜRÜN LİSTESİ VE SEPET LİSTESİ İÇİN TANIMLANAN IDLERİ JAVASCRİPTTE ÇAĞIRDIM.
 let kategoriSelect = document.getElementById('kategori');
